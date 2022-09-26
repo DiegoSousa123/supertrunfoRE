@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- CRIADO POR DIEGO SOUSA EM SETEMBRO DE 2022 -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Super Trunfo - Resident Evil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/trunfo2.css">
+    <meta name="author" content="Diego Sousa"/>
+    
+</head>
+
+
+<body>
+    
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <!--<h1>Super Trunfo - Resident Evil</h1>-->
+        <img src="imagens/supertrunfo.png" alt="">
+        
+    </header>  
+    
+    
+    <main>
+     <!--  
+       <section>
+          <div id="instrucoes">
+             <h3>Sorteie as cartas</h3>
+             <h4>Escolha o atributo e jogue.</h4>
+          </div>
+       </section>
+       -->
+       
+       <!-- INICIO DA SEÇÃO PRINCIPAL -->
+        <section class="secao_principal">
+            
+            <!-- CARTA DA MÁQUINA -->
+            <div id="ct_m"class="container_maquina">
+                <div id="flip_m" class="flip_maquina">
+                    <div id="verso_m" class="verso_maquina">
+                        <img class="card_logo"src="imagens/RE.png" alt="">
+                    </div>
+                    <div id="frente_m" class="frente">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- ---------- -->
+            
+            <!-- CARTA DO JOGADOR  -->
+            <div id="ct_p" class="container_player">
+                <div id="flip_p"class="flip_player">
+                    <div id="verso_p" class="verso_p">            
+                        <img class="card_logo"src="imagens/RE.png" alt="">
+                    </div>
+                    <div id="frente_p" class="frente_p">
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- --------- -->
+            
+        </section>    
+         <!-- FIM DA SEÇÃO PRINCIPAL -->
+         
+                 
+         
+         <!-- TELA RESULTADO -->
+         <div id="resultado">  
+                  
+           <h3 id="res"></h3>
+         <button id="try_again" onclick="reload()">Jogar Novamente</button>
+         
+         </div>
+         <!-- FIM DA TELA RESULTADO -->
+        
+         
+         <!-- BOTÕES DE AÇÃO -->
+        <div style="position:absolute; top:90%; left: 80%;">
+           <button id="jogar" type="button" onclick="jogar()" disabled>Jogar</button>
+ 
+        </div>  
+        <div style="position:absolute; top:90%; right: 80%;">
+           <button id="sortear" type="button" onclick="sortear()">Sortear</button>
+        </div>
+    </main>
+    
+    
+    <!-- RODAPÉ -->
+    <footer class="foot">
+        <small>Desenvolvido por Diego Sousa</small><br/>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" id="imersaodev"alt="">
+        <small>Resident Evil e seus respectivos personagens são de total direitos de Capcom Co., Ltd.</small>
+    </footer>
+    <!-- FIM DO RODAPÉ -->
+    
+    
+</body>
+
+<script src="scripts/trunfo2.js"></script>
+
+</html>
