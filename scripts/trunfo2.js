@@ -1,7 +1,7 @@
 
 var c1 = {
    nome:"Rebecca Chambers",
-   imagem: "cartas/rebecca.jpeg",
+   imagem: "imagens/rebecca.jpeg",
    atributos: {
       ataque: 8 ,
       agilidade: 10 ,
@@ -10,7 +10,7 @@ var c1 = {
 };
 var c2 = {
    nome:"Ada Wong",
-   imagem: "cartas/ada.jpeg",
+   imagem: "imagens/ada.jpeg",
    atributos: {
       ataque: 9,
       agilidade: 10,
@@ -19,7 +19,7 @@ var c2 = {
 };
 var c3 = { 
     nome: "Leon S. Kennedy",
-imagem:"cartas/leon.jpeg",
+imagem:"imagens/leon.jpeg",
     atributos: {
         ataque: 7,
         agilidade: 10,
@@ -29,7 +29,7 @@ imagem:"cartas/leon.jpeg",
   
 var c4 = {
    nome: "Jill Valentine" ,
-   imagem: "cartas/jill.png" ,
+   imagem: "imagens/jill.png" ,
    atributos: {
       ataque: 8,
       agilidade: 10,
@@ -38,7 +38,7 @@ var c4 = {
 };
 var c5 = {
    nome: "Chris Redfield",
-   imagem: "cartas/chris.jpeg" ,
+   imagem: "imagens/chris.jpeg" ,
    atributos: {
       ataque: 10,
       agilidade: 5,
@@ -47,7 +47,7 @@ var c5 = {
 };
 var c6 = {
    nome: "Hunk",
-   imagem: "cartas/hunk.jpeg",
+   imagem: "imagens/hunk.jpeg",
    atributos: {
        ataque: 10 ,
        agilidade: 4 ,
@@ -56,7 +56,7 @@ var c6 = {
 };
 var c7 = {
    nome:"Vector",
-   imagem: "cartas/vector.jpeg",
+   imagem: "imagens/vector.jpeg",
    atributos: {
       ataque: 8,
       agilidade: 10,
@@ -65,7 +65,7 @@ var c7 = {
 };
 var c8 = {
    nome: "Albert Wesker",
-   imagem: "cartas/wesker.jpeg" ,
+   imagem: "imagens/wesker.jpeg" ,
    atributos: {
       ataque: 11,
       agilidade: 9,
@@ -74,7 +74,7 @@ var c8 = {
 };
 var c9 = {
    nome: "Sherry Birkin",
-   imagem: "cartas/sherry.jpeg" ,
+   imagem: "imagens/sherry.jpeg" ,
    atributos: {
       ataque: 9 ,
       agilidade: 10 ,
@@ -83,7 +83,7 @@ var c9 = {
 };
 var c10 = {
    nome: "Jake Muller" ,
-   imagem: "cartas/jake.jpeg",
+   imagem: "imagens/jake.jpeg",
    atributos: {
       ataque: 10,
       agilidade: 8,
@@ -92,7 +92,7 @@ var c10 = {
 };
 var c11 = {
    nome: "Luiz Sera" ,
-   imagem: "cartas/luiz.jpeg",
+   imagem: "imagens/luiz.jpeg",
    atributos: {
       ataque: 8 ,
       agilidade: 7 ,
@@ -101,7 +101,7 @@ var c11 = {
 };
 var c12 = {
    nome: "Barry Burton",
-   imagem: "cartas/barry.jpeg",
+   imagem: "imagens/barry.jpeg",
    atributos: {
       ataque: 9 ,
       agilidade: 6 ,
