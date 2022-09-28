@@ -352,26 +352,26 @@ function jogar()
    
    jogou = true;
 
-   document.getElementById("jogar").disabled = true
-  document.getElementById("jogar").style.transform = "scale(0.8, 0.8)"
+    document.getElementById("jogar").disabled = true
+    document.getElementById("jogar").style.transform = "scale(0.8, 0.8)"
   
   
-   document.getElementById("ct_m").classList.add("elevarCarta")
+    document.getElementById("ct_m").classList.add("elevarCarta")
     document.getElementById("flip_m").style.transform = "rotateY(180deg)"
    
-document.getElementById("resultado").style.opacity = "1"
-document.getElementById("resultado").style.transform = "scale(1, 1)" 
+    document.getElementById("resultado").style.opacity = "1"
+    document.getElementById("resultado").style.transform = "scale(1, 1)" 
 
 
 if(maquina.nome == cartas[7].nome){
   
-  document.getElementById("ct_m").classList.add("brilho")
-   document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
+    document.getElementById("ct_m").classList.add("brilho")
+    document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
    
 } 
 else if(maquina.nome == cartas[20].nome){
     document.getElementById("ct_m").classList.add("brilho")
-   document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
+    document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
    
 }
 
@@ -385,27 +385,27 @@ else if(maquina.nome == cartas[20].nome){
 function reload(){
    
    if(jogou == true){           
-   document.getElementById("flip_m").style.transform = "rotateY(0)"            
-       document.getElementById("flip_p").style.transform = "rotateY(0)"  
+      document.getElementById("flip_m").style.transform = "rotateY(0)"            
+      document.getElementById("flip_p").style.transform = "rotateY(0)"  
          
-document.getElementById("frente_m").innerHTML = ""
-document.getElementById("frente_p").innerHTML = ""
+      document.getElementById("frente_m").innerHTML = ""
+      document.getElementById("frente_p").innerHTML = ""
       document.getElementById("sortear").disabled = false;
       document.getElementById("sortear").style.transform = "scale(1, 1)"
       document.getElementById("jogar").style.transform = "scale(0.8)"
- document.getElementById("resultado").style.transform = "scale(0)"
-     document.getElementById("resultado").style.opacity = "0"
+      document.getElementById("resultado").style.transform = "scale(0)"
+      document.getElementById("resultado").style.opacity = "0"
      
-document.getElementById("ct_p").classList.remove("elevarCarta")
-document.getElementById("ct_m").classList.remove("elevarCarta") 
+      document.getElementById("ct_p").classList.remove("elevarCarta")
+      document.getElementById("ct_m").classList.remove("elevarCarta") 
 
-document.getElementById("ct_p").classList.remove("brilho")
+      document.getElementById("ct_p").classList.remove("brilho")
 
-document.getElementById("ct_m").classList.remove("brilho")
+      document.getElementById("ct_m").classList.remove("brilho")
 
-document.getElementById("flip_p").style.animation = "none"
+      document.getElementById("flip_p").style.animation = "none"
 
-document.getElementById("flip_m").style.animation = "none"
+      document.getElementById("flip_m").style.animation = "none"
 
 
 
