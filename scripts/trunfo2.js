@@ -109,20 +109,107 @@ var c12 = {
    }
 };
 
+var c13 = {
+    nome: "Mikhail Victor",
+    imagem: "imagens/mikhail.jpg",
+    atributos: {
+        ataque: 9,
+        agilidade: 5 ,
+        defesa: 8
+    }
+};
+
+var c14 = {
+    nome: "Moira Burton",
+    imagem: "imagens/moira.jpg",
+    atributos: {
+        ataque: 6,
+        agilidade: 10 ,
+        defesa: 6
+    }
+};
+
+var c15 = {
+    nome: "Claire Redfield",
+    imagem: "imagens/claire_.jpg",
+    atributos: {
+        ataque: 9,
+        agilidade: 9 ,
+        defesa: 7
+    }
+};
+
+var c16 = {
+    nome: "Carlos Oliveira",
+    imagem: "imagens/carlos.jpeg",
+    atributos: {
+        ataque: 8,
+        agilidade: 6 ,
+        defesa: 9
+    }
+};
+var c17 = {
+    nome: "Ethan Winters",
+    imagem: "imagens/ethan.jpg",
+    atributos: {
+        ataque: 6,
+        agilidade: 7 ,
+        defesa: 9
+    }
+};
+var c18 = {
+    nome: "Helena Harper",
+    imagem: "imagens/helena.jpeg",
+    atributos: {
+        ataque: 8,
+        agilidade: 7 ,
+        defesa: 9
+    }
+};
+var c19 = {
+    nome: "Parker Luciano",
+    imagem: "imagens/parker.jpg",
+    atributos: {
+        ataque: 7,
+        agilidade: 4 ,
+        defesa: 9
+    }
+};
+var c20 = {
+    nome: "Piers Nivans",
+    imagem: "imagens/piers.jpeg",
+    atributos: {
+        ataque: 8,
+        agilidade: 7 ,
+        defesa: 7
+    }
+};
+
+var c21 = {
+    nome: "Rocket Launcher",
+    imagem: "imagens/bazooka.jpg",
+    atributos: {
+        ataque: 100,
+        agilidade: 0 ,
+        defesa: 0
+    }
+};
+
+
+
 var cartas = [c1,c2,c3,c4,c5,c6,c7,c8
-,c9,c10,c11,c12]
+,c9,c10,c11,c12, c13,c14,c15,c16,c17,c18,
+c19,c20, c21]
 
 var jogador
 var maquina
 
 
 
-
-
 //FUNÇÃO DE SORTEAR CARTA
 function sortear(){
    var sortMaquina = parseInt(Math.random() * cartas.length)         
-   maquina = cartas[sortMaquina]
+   maquina = cartas[20]
    
    var sortJogador = parseInt(Math.random() * cartas.length)     
    while( sortMaquina == sortJogador){
@@ -172,10 +259,18 @@ document.getElementById("ct_p").classList.add("elevarCarta")
 
 document.getElementById("flip_p").style.transform = "rotateY(180deg)"
 
-if(cartaJ.nome == "Albert Wesker"){
+
+
+if(cartaJ.nome == cartas[7].nome){
   document.getElementById("ct_p").classList.add("brilho")
     document.getElementById("flip_p").style.animation = "lendaria 2s infinite"
-
+    
+} 
+else if(cartaJ.nome == cartas[20].nome)
+{
+     document.getElementById("ct_p").classList.add("brilho")
+    document.getElementById("flip_p").style.animation = "lendaria 2s infinite"
+    
 }
 
 
@@ -268,9 +363,14 @@ document.getElementById("resultado").style.opacity = "1"
 document.getElementById("resultado").style.transform = "scale(1, 1)" 
 
 
-if(maquina.nome == "Albert Wesker"){
+if(maquina.nome == cartas[7].nome){
   
   document.getElementById("ct_m").classList.add("brilho")
+   document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
+   
+} 
+else if(maquina.nome == cartas[20].nome){
+    document.getElementById("ct_m").classList.add("brilho")
    document.getElementById("flip_m").style.animation = "lendaria 2s infinite"
    
 }
