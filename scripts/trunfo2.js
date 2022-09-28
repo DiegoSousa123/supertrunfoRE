@@ -209,7 +209,7 @@ var maquina
 //FUNÇÃO DE SORTEAR CARTA
 function sortear(){
    var sortMaquina = parseInt(Math.random() * cartas.length)         
-   maquina = cartas[20]
+   maquina = cartas[sortMaquina]
    
    var sortJogador = parseInt(Math.random() * cartas.length)     
    while( sortMaquina == sortJogador){
