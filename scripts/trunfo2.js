@@ -131,7 +131,7 @@ var c14 = {
 
 var c15 = {
     nome: "Claire Redfield",
-    imagem: "imagens/claire_.jpg",
+    imagem: "imagens/claire_2.jpg",
     atributos: {
         ataque: 9,
         agilidade: 9 ,
